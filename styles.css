@@ -1,0 +1,176 @@
+/* Γενικές Ρυθμίσεις */
+body {
+    font-family: 'Playpen Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F6F7C4; /* Κίτρινο */
+    color: #333;
+}
+
+/* Header */
+.navbar {
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+.navbar .nav-link {
+    font-size: 1rem;
+    color: #FFF !important;
+    transition: color 0.3s;
+}
+
+.navbar .nav-link:hover {
+    color: #A1EEBD !important; /* Πράσινο */
+}
+
+/* Hero Section */
+main .display-4 {
+    font-size: 3rem;
+    color: #A1EEBD; /* Πράσινο */
+    margin-bottom: 1rem;
+}
+
+main p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+/* Κουμπιά */
+button,
+a.btn {
+    background-color: #F6D6D6; /* Ροζ */
+    color: #333;
+    border: none;
+    border-radius: 25px;
+    padding: 0.8rem 1.5rem;
+    font-size: 1.2rem;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+button:hover,
+a.btn:hover {
+    transform: scale(1.1);
+    background-color: #7BD3EA; /* Γαλάζιο */
+    color: #FFF;
+}
+
+/* About Section */
+#about h1,
+#about h2 {
+    color: #7BD3EA; /* Γαλάζιο */
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+#about p {
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+/* Services Section */
+.card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-title {
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
+}
+
+.card-text {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+/* Testimonials Section */
+blockquote {
+    background-color: #FFF;
+    border-left: 5px solid #A1EEBD; /* Πράσινο */
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    color: #333;
+}
+
+blockquote footer {
+    font-size: 0.9rem;
+    color: #777;
+}
+
+/* Contact Section */
+.form-control {
+    border-radius: 10px;
+    border: 1px solid #7BD3EA;
+}
+
+.form-control:focus {
+    border-color: #A1EEBD;
+    box-shadow: 0 0 5px rgba(161, 238, 189, 0.5);
+}
+
+button[type="submit"] {
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #7BD3EA;
+}
+
+/* Footer */
+footer {
+    background-color: #F6D6D6; /* Ροζ */
+    color: #333;
+    font-size: 0.9rem;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Responsive Στυλ */
+@media (max-width: 768px) {
+    .navbar-brand {
+        font-size: 1.2rem;
+    }
+
+    .navbar .nav-link {
+        font-size: 0.9rem;
+    }
+
+    main .display-4 {
+        font-size: 2.5rem;
+    }
+
+    button,
+    a.btn {
+        font-size: 1rem;
+        padding: 0.6rem 1.2rem;
+    }
+}
+/* Instagram Icon */
+.instagram-icon {
+    display: inline-block;
+    font-size: 2rem; /* Μέγεθος του εικονιδίου */
+    color: #F6D6D6; /* Ροζ από την παλέτα */
+    opacity: 0.8; /* Ελαφριά διαφάνεια */
+    text-decoration: none;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.instagram-icon:hover {
+    transform: scale(1.1); /* Ελαφρύ zoom στο hover */
+    opacity: 1; /* Αφαίρεση διαφάνειας */
+}
